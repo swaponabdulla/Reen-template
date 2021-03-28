@@ -1,0 +1,348 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.res {
+    width: 130px;
+    padding-bottom: 0px;
+}
+ul{
+    padding-top: 0px;
+}
+}	
+
+
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+nav ul li a{
+	padding-right: 25px;
+}
+.responsive{
+	padding-top:70px;
+	padding-bottom: 70px;
+}
+.responsive p{
+	padding-top:15px;
+}
+.work{
+	padding-bottom: 70px;
+}
+.latest-work-head {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.latest-work {
+       max-height: 1016px;
+    padding-bottom: 40px;
+}
+.latest-work-head p{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+p{margin-bottom: 0px;}
+
+/* caresoul_img */
+
+.w-100 {
+    width: 100% !important;
+}
+.caresoul_img{
+	width: 220px;
+	height: 180px;
+}
+
+.get_in_touch p {
+	font-size: 20px;
+}
+.get_in_touch {
+    
+    padding-top: 70px;
+    padding-bottom: 80px; 
+}
+/* footer pic */
+.res{
+	width: 110px;
+}
+
+.email section{
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.footer_buttom{
+    padding-top: 5px;
+}
+.foot_menu{
+    padding-top: 0px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    nav ul li a {
+        padding-right: 0px;
+      padding-left: 50px;
+    }
+
+    .banner_content h1 {
+        font-size: 50px;
+    }
+    .banner_content p {
+        font-size: 34px;
+    }
+    .responsive {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .work{
+        padding-bottom: 1px;
+    }
+    .work img{
+        margin:15px 0px ;
+    }
+    .latest-work-head {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .latest-work-head h3{
+        font-size: 30px;
+    }
+    .latest-work-head p{
+        font-size: 19px;
+        padding-top: 30px;
+    }
+    .caresoul_img{
+        width: 100%;
+    }
+    .get_in_touch {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .get_in_touch h1{
+        font-size: 35px;
+    }
+    .get_in_touch p {
+        font-size: 19px;
+        padding: 10px 0px;
+    }
+    .res{
+        width: 78px;
+    }
+    .e_btn{
+        top:100%;
+        left:0;
+        
+        margin: -7% 27%;
+    }
+    .email_section{
+        background-color: #2f4052;
+    }
+    ul{
+        padding-top: 0px;
+    }
+    .social_menu ul li {
+            padding: 10px 20px
+    }
+    .footer_buttom_menu ul li a {
+        padding-right: 3px;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 24%;
+    }
+    .footer_main {
+        background-color: #2f4052;
+        padding-top: 45px;
+        padding-bottom: 1px;
+    }
+
+    h1, h3, h3 {
+        font-size: 21px;
+        font-family: 'Lato', sans-serif;
+        color: #506a85;
+    }
+.pot{
+    padding-left: 50px;
+}
+.con{
+    padding-left: 40px;
+}
+.mega{
+    padding-left: 12px;
+}
+}
+
+ 
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+.footer_main h3 {
+        padding-top: 50px;
+}
+
+.footer_main {
+      padding-top: 0px;
+  }
+  .res{
+	width: 160px;
+}
+.e_btn{
+    top:100%;
+    left:0;
+    width: 25%;
+    margin: 2% 0%;
+}
+.email_section{
+    width: 80%;;
+}
+.social_menu ul li {
+        padding: 10px 20px
+}
+.ct_i{
+    margin-left:30px;
+}
+#menu{
+    display: none;
+}
+.row-nav{width: 80%;}
+.banner_content h1{
+    font-size: 35px;;
+}
+.banner_content p{
+    font-size: 21px;;
+}
+.responsive {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.work{
+    padding-bottom: 40px;
+}
+.work img{
+    margin:15px 0px ;
+}
+.latest-work-head {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.latest-work-head h3{
+    font-size: 30px;
+}
+.latest-work-head p{
+    font-size: 19px;
+}
+.caresoul_img{
+    width: 100%;
+}
+.get_in_touch {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.get_in_touch h1{
+    font-size: 35px;
+}
+.get_in_touch p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .footer_main h3 {
+        padding-top: 50px;
+}
+
+.footer_main {
+      padding-top: 0px;
+  }
+  .res{
+	width: 210px;
+}
+.e_btn {
+    top: 100%;
+    left: 0;
+    width: 36%;
+    margin: 2% 0%;
+}
+.email_section{
+    width: 80%;;
+}
+.social_menu ul li {
+        padding: 10px 20px
+}
+.ct_i{
+    margin-left:30px;
+}
+#menu{
+    display: none;
+}
+.row-nav{width: 80%;}
+.banner_content h1{
+    font-size: 35px;;
+}
+.banner_content p{
+    font-size: 21px;;
+}
+.responsive {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.work{
+    padding-bottom: 40px;
+}
+.work img{
+    margin:15px 0px ;
+}
+.latest-work-head {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.latest-work-head h3{
+    font-size: 30px;
+}
+.latest-work-head p{
+    font-size: 19px;
+}
+.caresoul_img{
+    width: 100%;
+}
+.get_in_touch {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.get_in_touch h1{
+    font-size: 35px;
+}
+.get_in_touch p {
+    font-size: 20px;
+    padding: 10px 0px;
+}   
+ 
+}
